@@ -1,0 +1,18 @@
+1. Create a new scenaio
+ - Chnange the object ids of the same traffic signs to the same
+ - Build a .pex file on Prescan
+
+2. Update the simulink model 
+ - Update the simulink file in Matlab (run the second section of file runExperiment.m)
+ - Add the bouding_rectangle block
+ - Add a to_workspace linked to object list provider
+ - tickle on the "save results" option in the CameraSensor_1_CM_Display module
+
+3. Run the simulation
+ - Make the ROS side and the Prescan are using the same WIFI
+ - Launch a ros agent on the ROS side
+ - Start the Prescan experiment on the Prescan side (runt the third section of file runExperiment.m)
+ - Run the symaware controller on the ROS side (python3 ..eicsymaware/exampels/ros.py)
+ - Stop the controller on the ROS side
+ - (wait for 3 secs to make sure the camera data and bounding data have the same timestamps)
+ - Stop the Prescan experiment on the Prescan side
