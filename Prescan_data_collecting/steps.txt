@@ -1,5 +1,5 @@
 1. Create a new scenaio
- - Chnange the object ids of the same traffic signs to the same
+ - Change the object ids of the same traffic signs to the same
  - Build a .pex file on Prescan
 
 2. Update the simulink model 
