@@ -2,6 +2,10 @@ import os
 import cv2
 import numpy as np
 
+'''
+Library Written by Jingyuan Han for traffic sign detection part.
+'''
+
 GTSDB_TRAIN_RANGE = 600
 GTSDB_VAL_RANGE = 300
 
