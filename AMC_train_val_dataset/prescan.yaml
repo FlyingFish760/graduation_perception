@@ -1,0 +1,10 @@
+# train and val data
+train: ../train
+val: ../val
+
+# classes
+names:
+  0: traffic signal
+  1: speed limit 20
+  2: speed limit 30
+  3: speed limit 50

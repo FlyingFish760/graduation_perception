@@ -1,0 +1,22 @@
+% cos_lr;
+weight_decay
+
+hsv_s
+degrees
+translate
+scale
+fliplr
+
+signs at different places
+
+
+
+-make the program run
+
+->-fix the MPC controller done
+-> perpception:  now the perception result might be wrong -> but when new object detected, the policy_ready should be false, and the car should not run, but now the car still runs and run in a very low speed (system issue)
+ the issue: now runs in a very low speed
+
+plot velocity
+plot path
+add perception progress (detect, distance, label)
